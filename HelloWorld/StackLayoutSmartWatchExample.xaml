@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackLayoutSmartWatchExample" NavigationPage.HasNavigationBar="False" BackgroundColor="#dbdad5">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Label Text="Akıllı Saatler" FontSize="29" FontAttributes="Bold" TextColor="#fb953c" HorizontalOptions="Center" Padding="0,0,0,25"/>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="10" Margin="0,0,0,10">
+                    <Image HeightRequest="130" WidthRequest="130"
+                            Source="https://productimages.hepsiburada.net/s/111/550/110000057989960.jpg/format:webp" />
+                        <StackLayout >
+                            <Label Text="Samsung Galaxy Watch 4" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Samsung Galaxy Watch 4 Classic Small Black 42mm" TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="0,20,0,0">
+                            <Label Text="2,499,00 TL" FontSize="20"  TextColor="#fb953c" FontAttributes="Bold"/>
+                            <Label Text="Ürünü İncele" TextColor="#5c9cdf" VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="10" Margin="0,0,0,10">
+                        <Image HeightRequest="130" WidthRequest="130"
+                               Source="https://productimages.hepsiburada.net/s/53/550/11125287485490.jpg/format:webp" />
+                        <StackLayout >
+                            <Label Text="Xiaomi Mi Watch Lite" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Xiaomi Mi Watch Lite Akıllı Saat - Black" TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="0,20,0,0">
+                                <Label Text="499,01 TL" FontSize="20"  TextColor="#fb953c" FontAttributes="Bold"/>
+                                <Label Text="Ürünü İncele" TextColor="#5c9cdf" VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="10" Margin="0,0,0,10">
+                        <Image HeightRequest="130" WidthRequest="130"
+                               Source="https://productimages.hepsiburada.net/s/140/550/110000093110257.jpg/format:webp" />
+                        <StackLayout >
+                            <Label Text="Apple Watch Seri 3" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Apple Watch Seri 3 GPS 42 mm Uzay Grisi Alüminyum Kasa ve Siyah Spor Kordon" TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="0,20,0,0">
+                                <Label Text="2.249,01 TL" FontSize="20"  TextColor="#fb953c" FontAttributes="Bold"/>
+                                <Label Text="Ürünü İncele" TextColor="#5c9cdf" VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="10" Margin="0,0,0,10">
+                        <Image HeightRequest="130" WidthRequest="130"
+                               Source="https://productimages.hepsiburada.net/s/43/550/10770300108850.jpg/format:webp" />
+                        <StackLayout >
+                            <Label Text="Huawei Watch GT2 Pro " TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Huawei Watch GT2 Pro 46mm Akıllı Saat - Kahverengi" TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="0,20,0,0">
+                                <Label Text="2.141,10 TL" FontSize="20"  TextColor="#fb953c" FontAttributes="Bold"/>
+                                <Label Text="Ürünü İncele" TextColor="#5c9cdf" VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

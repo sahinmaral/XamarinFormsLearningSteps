@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.GridLayoutSmartWatchSample">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Akıllı Saatler" FontAttributes="Bold" TextColor="#fe9801" HorizontalOptions="Center" FontSize="30" Grid.ColumnSpan="2"/>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="1" Grid.Column="0">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/111/550/110000057989960.jpg/format:webp" />
+
+                <Label Text="Samsung Galaxy Watch 4" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="Samsung Galaxy Watch 4 Classic Small Black 42mm" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="2.499,00 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="3.000,00 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="1" Grid.Column="1">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/53/550/11125287485490.jpg/format:webp" />
+
+                <Label Text="Xiaomi Mi Watch Lite" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="Xiaomi Mi Watch Lite Akıllı Saat" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="499,01 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="600 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="2" Grid.Column="0">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/140/550/110000093110257.jpg/format:webp" />
+
+                <Label Text="Apple Watch Seri 3" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="Apple Watch Seri 3 Uzay Grisi Alüminyum Kasa" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="2.249,01 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="2.900,00 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="2" Grid.Column="1">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/43/550/10770300108850.jpg/format:webp" />
+
+                <Label Text="Huawei Watch GT2 Pro" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="Huawei Watch GT2 Pro 46mm Akıllı Saat - Kahverengi" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="2.141,10 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="2.800,10 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="3" Grid.Column="0">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/50/550/11001040142386.jpg/format:webp" />
+
+                    <Label Text="Honor Watch GS Pro Akıllı Saat" TextColor="Black" FontAttributes="Bold"/>
+                    <Label Text="Honor Watch GS Pro Akıllı Saat" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="1.399,01 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="1.900,00 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout 
+                BackgroundColor="White" Padding="10,15" Grid.Row="3" Grid.Column="1">
+
+                <Image HeightRequest="100" WidthRequest="100"
+                       Source="https://productimages.hepsiburada.net/s/33/550/10399234981938.jpg/format:webp" />
+
+                <Label Text="Huawei Watch GT2 46mm Sport Akıllı Saat" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="Huawei Watch GT2 46mm Sport Akıllı Saat - Siyah" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="1.254,96 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="1.800,00 TL" FontSize="15"  TextColor="#fb953c" FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                <BoxView HeightRequest="0.5" BackgroundColor="black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://img.icons8.com/color/50/000000/shopping-basket-2.png" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://img.icons8.com/flat-round/50/000000/hearts.png" />
+                </StackLayout>
+            </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

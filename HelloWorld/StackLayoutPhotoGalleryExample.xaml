@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackLayoutPhotoGalleryExample"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Photo Gallery" Padding="20" HorizontalOptions="Start" TextColor="Black" />
+            <Image Source="https://picsum.photos/seed/picsum/1500/800" />
+            <StackLayout Orientation="Horizontal" Padding="20" Spacing="20">
+                <Label Text="Like" TextColor="#5c9cdf"/>
+                <Label Text="Comment" TextColor="#5c9cdf"/>
+                <Label Text="Share" TextColor="#5c9cdf"/>
+            </StackLayout>
+
+            <StackLayout>
+                <BoxView HeightRequest="0.5" Color="Black" Opacity="0.2"></BoxView>
+            </StackLayout>
+
+            <Label Text="150 likes" Padding="20,10,20,10" TextColor="Black"/>
+
+            <Label TextColor="Black"
+                   Text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                   Padding="20,0,20,0"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

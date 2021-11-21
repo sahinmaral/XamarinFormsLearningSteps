@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.AbsoluteLayoutSmartWatchSample">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#fce75e">
+            <Image 
+                Source="https://technotoday.com.tr/wp-content/uploads/2019/12/Gear_FA-Galaxy-Watch-Active2_Aluminum_40mm_Aqua-Black.jpg" 
+                AbsoluteLayout.LayoutBounds="0,0,1,0.8" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"
+                />
+
+                <BoxView BackgroundColor="White" AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.65,1,50" CornerRadius="40"/>
+
+                <StackLayout Padding="0,20,0,0" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0,1,1,250" AbsoluteLayout.LayoutFlags="WidthProportional,YProportional">
+                <Label HorizontalOptions="Center" 
+                    Text="Samsung Galaxy Watch" TextColor="Black" FontAttributes="Bold" FontSize="20"/>
+                <Label Text="Şimdiye kadarki en gelişmiş Galaxy saatle tanışın. Galaxy Watch3 akıllı telefon özelliğiyle önde gelen sağlık teknolojilerini tek bir cihazda buluşturuyor. Tüm sağlık değerlerinizi zahmetsizce görüntüleyebileceğiniz Galaxy Watch3 ile sağlığınız artık tamamen sizin elinizde." 
+                       TextColor="Black" Padding="20,0,20,0"
+                />
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="2.499,00 TL" FontSize="20"  TextColor="#fb953c" FontAttributes="Bold"/>
+                    <Label Text="3.000,00 TL" FontSize="20"  FontAttributes="Bold" TextDecorations="Strikethrough"/>
+                </StackLayout>
+
+                <Button CornerRadius="10"
+                    HorizontalOptions="Center" WidthRequest="370" BackgroundColor="#2a3c45" Text="Add To Cart" TextColor="White" FontAttributes="Bold"/>
+            </StackLayout>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

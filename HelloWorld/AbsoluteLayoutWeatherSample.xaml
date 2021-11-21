@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.AbsoluteLayoutWeatherSample">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image AbsoluteLayout.LayoutBounds="1,1,1,1"
+                AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"
+                Source="https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1"/>
+
+            <Image AbsoluteLayout.LayoutBounds="0.5,0.07,100,100"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   Source="https://www.clipartmax.com/png/full/234-2347009_cloud-forecast-sun-weather-icon-weather-icon.png"
+            />
+
+            <Label AbsoluteLayout.LayoutBounds="0.72,0.35,200,200"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   Text="İstanbul" TextColor="White" FontSize="30"/>
+
+            <Label AbsoluteLayout.LayoutBounds="0.84,0.45,200,200"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   Text="15°" TextColor="White" FontSize="40"/>
+
+            <StackLayout 
+                Orientation="Horizontal"
+                AbsoluteLayout.LayoutBounds="1,1,1,0.1"
+                AbsoluteLayout.LayoutFlags="All"
+                Padding="0,20,0,0"
+                BackgroundColor="#e6c686">
+                <Label FontSize="18" Text="Sıcaklık" TextColor="White" HorizontalOptions="StartAndExpand" Padding="25,0,0,0"/>
+                <Label FontSize="18" Text="Rüzgar" TextColor="White" HorizontalOptions="CenterAndExpand" Padding="0,0,25,0" />
+                <Label FontSize="18" Text="Nem" TextColor="White" HorizontalOptions="EndAndExpand" Padding="0,0,30,0"/>
+            </StackLayout>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
